@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-if (!defined('BASE_URL')) define('BASE_URL', 'http://localhost/verifiedsavers.com/');
+if (!defined('BASE_URL')) define('BASE_URL', 'http://localhost/Affiliate-Marketing-System/');
 
 class affiliateMarketing{
     private $connect;
