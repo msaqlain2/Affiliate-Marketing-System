@@ -1,0 +1,14 @@
+<?php
+if (!isset($_SESSION)) {
+    session_start();
+}
+require_once('../models/affiliateMarketing.class.php');
+
+
+
+
+echo (new affiliateMarketing())->updateAboutUs(
+    $_POST['aboutUs']
+);
+
+?>

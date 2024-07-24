@@ -1,0 +1,296 @@
+[18-Mar-2023 07:56:15 UTC] PHP Notice:  Undefined index: storeName in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/couponRating.api.php on line 5
+[18-Mar-2023 07:56:15 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getStoreIdByStoreName() must be of the type string, null given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/couponRating.api.php on line 5 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:501
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/couponRating.api.php(5): affiliateMarketing->getStoreIdByStoreName(NULL)
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 501
+[18-Mar-2023 07:56:15 UTC] PHP Notice:  Undefined index: storeName in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateStoreVotes.api.php on line 5
+[18-Mar-2023 07:56:15 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getStoreIdByStoreName() must be of the type string, null given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateStoreVotes.api.php on line 5 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:501
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateStoreVotes.api.php(5): affiliateMarketing->getStoreIdByStoreName(NULL)
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 501
+[20-Mar-2023 18:57:10 UTC] PHP Fatal error:  Uncaught TypeError: Argument 7 passed to affiliateMarketing::addCoupon() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/addCoupon.api.php on line 25 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:78
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/addCoupon.api.php(25): affiliateMarketing->addCoupon('4', 'Dolores enim in...', 'Modi voluptas s...', 'https://www.wec...', 'Qui mollitia ea...', '1997-10-02', '', 0, '7')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 78
+[20-Mar-2023 18:59:04 UTC] PHP Fatal error:  Uncaught TypeError: Argument 7 passed to affiliateMarketing::addCoupon() must be of the type string, null given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/addCoupon.api.php on line 25 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:78
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/addCoupon.api.php(25): affiliateMarketing->addCoupon('4', 'Et et dolores d...', 'Qui cillum quod...', 'https://www.hum...', 'Irure quis quas...', '1970-06-20', NULL, 0, '6')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 78
+[20-Mar-2023 18:59:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'category' cannot be null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:90
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php(90): PDOStatement->execute()
+#1 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/addCoupon.api.php(25): affiliateMarketing->addCoupon('4', 'Et et dolores d...', 'Qui cillum quod...', 'https://www.hum...', 'Irure quis quas...', '1970-06-20', NULL, 0, '6')
+#2 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 90
+[21-Mar-2023 02:01:24 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:01:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:01:26 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:01:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:05:29 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:05:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:05:29 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:05:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:06:11 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:06:11 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:06:11 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:06:11 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:06:15 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:06:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:06:15 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:06:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:06:20 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:06:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:06:20 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:06:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:06:46 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:06:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:06:46 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:06:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:06:48 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:06:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:06:48 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:06:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:07:07 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:07:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:07:07 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:07:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:07:13 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:07:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:07:13 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:07:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:07:20 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:07:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:07:20 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:07:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:08:04 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:08:04 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:08:04 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:08:04 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:10:08 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:10:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:10:08 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:10:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:11:41 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:11:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:11:41 UTC] PHP Notice:  Undefined offset: 0 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 02:11:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 12:12:42 UTC] PHP Notice:  Undefined offset: 1 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 12:12:42 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 12:12:42 UTC] PHP Notice:  Undefined offset: 1 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 12:12:42 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 12:12:53 UTC] PHP Notice:  Undefined offset: 1 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 12:12:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 12:12:53 UTC] PHP Notice:  Undefined offset: 1 in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 12:12:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 10
+[21-Mar-2023 12:42:38 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 16
+[21-Mar-2023 12:42:38 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 16
+[21-Mar-2023 22:26:35 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 9 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:441
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(9): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 441
+[21-Mar-2023 22:26:48 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 9 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:441
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(9): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 441
+[21-Mar-2023 22:27:05 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 9 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:441
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(9): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 441
+[21-Mar-2023 22:27:13 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 9 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:441
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(9): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 441
+[21-Mar-2023 22:27:26 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 9 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:441
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(9): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 441
+[21-Mar-2023 22:30:30 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 12 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:441
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(12): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 441
+[21-Mar-2023 22:30:43 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 12 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:441
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(12): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 441
+[21-Mar-2023 22:32:24 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:441
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 441
+[21-Mar-2023 22:32:24 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:441
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 441
+[21-Mar-2023 22:32:35 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:441
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 441
+[21-Mar-2023 22:32:35 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:441
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 441
+[21-Mar-2023 22:32:47 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:441
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 441
+[21-Mar-2023 22:32:47 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:441
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 441
+[21-Mar-2023 22:33:52 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:441
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 441
+[21-Mar-2023 22:33:52 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:441
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 441
+[21-Mar-2023 22:33:58 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:441
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 441
+[21-Mar-2023 22:33:58 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:441
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 441
+[21-Mar-2023 22:57:05 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:441
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 441
+[21-Mar-2023 23:49:34 UTC] PHP Notice:  Undefined index: emailAddress in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/subscribeNewsletter.api.php on line 8
+[21-Mar-2023 23:49:34 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getNewsLetterData() must be of the type string, null given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/subscribeNewsletter.api.php on line 11 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:311
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/subscribeNewsletter.api.php(11): affiliateMarketing->getNewsLetterData(NULL, false)
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 311
+[21-Mar-2023 23:49:53 UTC] PHP Notice:  Undefined index: emailAddress in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/subscribeNewsletter.api.php on line 8
+[21-Mar-2023 23:49:53 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getNewsLetterData() must be of the type string, null given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/subscribeNewsletter.api.php on line 11 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:311
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/subscribeNewsletter.api.php(11): affiliateMarketing->getNewsLetterData(NULL, false)
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 311
+[21-Mar-2023 23:50:56 UTC] PHP Notice:  Undefined index: emailAddress in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/subscribeNewsletter.api.php on line 9
+[21-Mar-2023 23:50:56 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getNewsLetterData() must be of the type string, null given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/subscribeNewsletter.api.php on line 11 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:311
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/subscribeNewsletter.api.php(11): affiliateMarketing->getNewsLetterData(NULL, true)
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 311
+[21-Mar-2023 23:50:56 UTC] PHP Notice:  Undefined index: emailAddress in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/subscribeNewsletter.api.php on line 9
+[21-Mar-2023 23:50:56 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getNewsLetterData() must be of the type string, null given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/subscribeNewsletter.api.php on line 11 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:311
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/subscribeNewsletter.api.php(11): affiliateMarketing->getNewsLetterData(NULL, true)
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 311
+[21-Mar-2023 23:52:20 UTC] PHP Warning:  Illegal string offset 'status' in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/subscribeNewsletter.api.php on line 13
+[21-Mar-2023 23:52:30 UTC] PHP Warning:  Illegal string offset 'status' in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/subscribeNewsletter.api.php on line 13
+[21-Mar-2023 23:55:39 UTC] PHP Warning:  Illegal string offset 'message' in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/subscribeNewsletter.api.php on line 24
+[21-Mar-2023 23:55:47 UTC] PHP Warning:  Illegal string offset 'message' in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/subscribeNewsletter.api.php on line 24
+[22-Mar-2023 00:01:17 UTC] PHP Notice:  Undefined variable: response in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/subscribeNewsletter.api.php on line 11
+[22-Mar-2023 00:01:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/subscribeNewsletter.api.php on line 15
+[22-Mar-2023 00:02:00 UTC] PHP Notice:  Undefined variable: message in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/subscribeNewsletter.api.php on line 19
+[22-Mar-2023 02:33:48 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:451
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 451
+[22-Mar-2023 02:33:56 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:451
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 451
+[22-Mar-2023 02:34:01 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:451
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 451
+[22-Mar-2023 02:34:06 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:451
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 451
+[22-Mar-2023 02:36:23 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:451
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 451
+[22-Mar-2023 05:51:53 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:451
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 451
+[22-Mar-2023 08:20:14 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:451
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 451
+[22-Mar-2023 08:20:28 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:451
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 451
+[22-Mar-2023 08:20:56 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:451
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 451
+[22-Mar-2023 08:24:02 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:451
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 451
+[22-Mar-2023 09:08:02 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:451
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 451
+[22-Mar-2023 09:08:45 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:451
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 451
+[22-Mar-2023 09:08:54 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:451
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 451
+[22-Mar-2023 09:08:59 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:451
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 451
+[22-Mar-2023 09:09:03 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:451
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 451
+[22-Mar-2023 09:09:10 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:451
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 451
+[24-Mar-2023 14:44:46 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to affiliateMarketing::getAllCouponsForClicksCount() must be of the type int, string given, called in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php on line 14 and defined in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php:451
+Stack trace:
+#0 /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/api/updateClickCount.api.php(14): affiliateMarketing->getAllCouponsForClicksCount('')
+#1 {main}
+  thrown in /home/m2s458z23813/public_html/Clients_website/verifiedsaver.com/admin/models/affiliateMarketing.class.php on line 451
